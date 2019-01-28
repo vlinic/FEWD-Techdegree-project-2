@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vedran Linić porfolio page</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>    
-    <header id="home"class="main-header">
+    <header id="home" class="main-header">
         <div class="container clearfix overflow">
             <div class="header">            
                 <h1 class="name"><a href="#">Vedran Linić</a></h1>
@@ -29,7 +29,7 @@
                 <p class="profile-text">Hi! I'm front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
                 </div>    
         </div>
-        </header><!--/.main-header-->  
+         
     </header>
     <main>
         <div class="porfolio overflow" id="porfolio">
@@ -65,31 +65,31 @@
                     <p>Someone can enter in the numbers they want and press the big blue button and get the result.</p>
                 </section>
         </div>
-    </main>    
-    <main id="technology">
-        <div class="technology container overflow">
-            <h2>Technology</h2>
-            <section class="item">
-                <img src="images/technology-1.png" alt="HTML picture">
-                <h3>HTML</h3>
-                <p>Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications</p>
-            </section>
-            <section class="item">
-                <img src="images/technology-2.png" alt="CSS picture">
-                <h3>CSS</h3>
-                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.[</p>
-            </section>
-            <section class="item">
-                <img src="images/technology-3.png" alt="Javascript picture">
-                <h3>Javascript</h3>
-                <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/),[8] often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.</p>
-            </section> 
+        <div id="technology">
+            <div class="technology container overflow">
+                <h2>Technology</h2>
+                <section class="item">
+                    <img src="images/technology-1.png" alt="HTML picture">
+                    <h3>HTML</h3>
+                    <p>Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications</p>
+                </section>
+                <section class="item">
+                    <img src="images/technology-2.png" alt="CSS picture">
+                    <h3>CSS</h3>
+                    <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.[</p>
+                </section>
+                <section class="item">
+                    <img src="images/technology-3.png" alt="Javascript picture">
+                    <h3>Javascript</h3>
+                    <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/),[8] often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.</p>
+                </section> 
+            </div>
         </div>
     </main>
     <footer class="clearfix">
         <div class="container" id="contact">
             <h2>Contact</h2>
-                <p>If you're interested in chattiong or want more information about what I've been working on, I'd love to hear from you!</p>
+                <p>If you're interested in taking or want more information about what I've been working on, I'd love to hear from you!</p>
                 <p>Phone <a href="tel:+1(111)555-1234">+1(111)555-1234</a></p>
                 <p>Email <a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
         </div>
@@ -98,14 +98,15 @@
                 <ul>
                     <li class="studentName">Vedran Linić</li>
                     <li class="linkToTop"><a href="#home">Back to Top</a></li>
-                    <ul class="nav-footer">                
-                        <li class="footer-link"><a href="#home">Home</a></li>
-                        <li class="footer-link"><a href="#porfolio">Porfolio</a></li>
-                        <li class="footer-link"><a href="#technology">Technology</a></li>
-                        <li class="footer-link"><a href="#contact">Contact</a></li>
-                    </ul>
-                    
-                
+                    <li>
+                        <ul class="nav-footer">                
+                            <li class="footer-link"><a href="#home">Home</a></li>
+                            <li class="footer-link"><a href="#porfolio">Porfolio</a></li>
+                            <li class="footer-link"><a href="#technology">Technology</a></li>
+                            <li class="footer-link"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </li>                        
+                </ul>
             </div>
         </div>
     </footer>
